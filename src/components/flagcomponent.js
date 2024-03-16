@@ -9,7 +9,7 @@ function FlagsComponent(props) {
     return (
 
         <li>
-            <img src = {imageUrl} width = "5%"/>
+            <img src = {imageUrl} width = "5%" alt = "loading"/>
             <div>
                 <h2>{country}</h2>
                 <label>{language}</label>
